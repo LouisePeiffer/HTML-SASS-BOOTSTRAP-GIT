@@ -1,0 +1,34 @@
+section:first-of-type
+    padding: 5% 20%
+    display: flex
+    div:first-of-type
+        flex: 1
+        padding: 0 3%
+        h1 
+            text-transform: uppercase
+        h2
+            text-transform: uppercase
+            color: gray
+            font-weight: lighter
+            font-size: 25px
+    div:nth-of-type(2)
+        flex: 1
+        color: gray
+        p
+            padding-bottom: 5%
+            
+
+@media screen and ( max-width: 841px )
+    section:first-of-type
+        flex-direction: column
+        div:first-of-type
+            padding: 0
+            padding-bottom: 5%
+@media screen and ( max-width: 520px )
+    section:first-of-type
+        padding: 5% 10%
+        div:first-of-type
+            h1
+                font-size: 30px
+            h2
+                font-size: 20px
