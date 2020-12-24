@@ -10031,3 +10031,52 @@ section:nth-of-type(2) div:nth-of-type(3) button:nth-of-type(2) {
     font-size: 13px;
   }
 }
+
+section:nth-of-type(3) {
+  padding: 5%;
+}
+
+section:nth-of-type(3) .titrou h1 {
+  text-transform: uppercase;
+}
+
+section:nth-of-type(3) .titrou h2 {
+  text-transform: uppercase;
+  color: lightgray;
+  font-weight: lighter;
+}
+
+section:nth-of-type(3) .imgrounds {
+  margin: 5% 0;
+}
+
+section:nth-of-type(3) .imgrounds .rowtof {
+  display: flex;
+  align-items: center;
+}
+
+section:nth-of-type(3) .imgrounds .rowtof .coucou {
+  display: flex;
+  align-items: center;
+}
+
+section:nth-of-type(3) .imgrounds .rowtof .coucou div {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 3%;
+}
+
+section:nth-of-type(3) .imgrounds .rowtof .coucou img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid lightgray;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+@media screen and (max-width: 1025px) {
+  .imgrounds .rowtof {
+    flex-wrap: wrap;
+  }
+}
